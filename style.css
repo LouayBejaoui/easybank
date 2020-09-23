@@ -1,0 +1,255 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+a{
+  text-decoration: none;
+  color:  black;
+}
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  /* navbar*/
+  .navbar{
+height: 75px;
+  }
+  .logo{
+    display: inline-block;
+    width: 25%;
+margin-left: 10%;
+margin-top: 3%;
+  }
+  .req-top{
+    margin-left: 15%;
+
+  }
+  .Request{
+    display: inline-block;
+    border-radius: 50px;
+    padding: 15px 10px 15px 10px;
+    width:18rem;
+    text-align: center;
+    vertical-align: middle;
+    background: rgb(74,203,91);
+   background: linear-gradient(90deg, rgba(74,203,91,1) 0%, rgba(66,193,181,1) 52%, rgba(58,183,190,1) 100%);
+
+color: white;
+font-size: 18px;
+
+  }
+  .Request:hover{
+    background: rgb(169,242,172);
+background: linear-gradient(90deg, rgba(169,242,172,1) 0%, rgba(71,196,239,1) 70%, rgba(10,190,185,1) 100%);
+  }
+h3{
+display: inline-block;
+color: #979797;
+font-family: 'Barlow', sans-serif;
+
+
+}
+.op{
+  display: inline-block;
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 80px;
+  vertical-align: middle;
+
+
+}
+.op:hover{
+  border-bottom: 5px solid #1db882;
+
+}
+.choices{
+  display: inline-block;
+  vertical-align:middle;
+  text-align: center;
+}
+h3:hover{
+  color: black;
+}
+/*first para*/
+.first-para{
+  display: inline-block;
+  width: 450px ;
+  margin: 10% 0 0 10%
+
+}
+.next-gen{
+  font-size: 5rem;
+  font-family: 'Roboto', sans-serif;
+font-weight: 700;
+margin-bottom: 40px;
+}
+ p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #979797;
+  margin-bottom: 32px;
+  line-height: 28px;
+}
+.bg-img {
+  height: 600px;
+  width: auto;
+  display: inline-block;
+  position:relative;
+  left: 600px;
+  bottom: 400px;
+}
+.mainphoto-img{
+  z-index: 1;
+  height: 700px;
+  position: relative;
+  left: 750px;
+  bottom: 1050px;
+}
+.intro{
+  height: 650px;
+  background: rgb(255,255,255);
+background: linear-gradient(356deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(234,236,236,0.9948354341736695) 100%);
+}
+/*second para*/
+.second-para{
+  z-index: 0;
+  background-color: #fafafa;
+
+}
+.why-choose{
+  width: 700px;
+  margin-left: 10%;
+  padding-top: 80px;
+}
+.why-title{
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+font-weight: 700;
+margin-bottom: 25px;
+}
+/*icons*/
+.icons{
+margin-left: 10%;
+margin-top: 130px;
+
+}
+.icon{
+  margin-bottom: 8px;
+  display: inline-block;
+  width: 200px;
+  height: 350px;;
+  margin-right:80px;
+  vertical-align: top;
+
+}
+.icon-title{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+font-weight: 600;
+margin-bottom: 25px;
+margin-top: 40px;
+}
+.icon-para{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #979797;
+  margin-bottom: 32px;
+  line-height: 25px;
+}
+/*Artiiicleeessss*/
+.latest-articles{
+  background: rgb(255,255,255);
+  background: linear-gradient(185deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(240,238,238,1) 100%);
+padding-top: 70px;
+}
+.artitle{
+  margin-left: 10%;
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+font-weight: 700;
+margin-bottom: 75px;
+}
+.articles{
+margin-left: 10%;
+}
+.article{
+background-color: white;
+width: 250px;
+height: 410px;
+margin-right: 40px;
+margin-bottom: 50px;
+display: inline-block;
+vertical-align: top;
+
+}
+.article-img{
+width: 250px;
+height: 180px;
+margin-bottom: 25px;
+}
+.index{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #979797;
+  margin-bottom: 15px;
+}
+.article-title{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+font-weight: 600;
+margin-bottom: 15px;
+
+
+}
+.article-para{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #979797;
+  line-height: 20px;
+}
+.container{
+  width: 250px;
+}
+/*foooter*/
+footer{
+  background-color: #2c3968;
+  height:200px;
+}
+.last-logo{
+  color: white;
+padding-bottom: 35px;
+
+
+}
+.contacto{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.first-first-row{
+margin-left: 10%;
+margin-top: 60px;
+  display: inline-block;
+}
+.row{
+display: inline-block;
+margin-left: 180px;
+}
+h5{
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+padding-bottom: 15px;
+font-size: 15px;
+}
+.last-row{
+  display: inline-block;
+  margin-left: 350px;
+}
+.req-bot{
+margin-bottom: 50px;
+}
+.copy{
+  color: #979797;
+}
